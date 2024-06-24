@@ -1,0 +1,87 @@
+html,
+body {
+  font-family: "Inter", serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 2px 1px 2px #eee;
+  box-sizing: border-box;
+}
+
+.logo img {
+  width: 130px;
+}
+.logo {
+  margin: 24px 0px 24px 200px;
+}
+
+.options {
+  display: flex;
+  margin: 24px 200px 24px 0px;
+  color: #666;
+  font-size: 14px;
+}
+
+.o {
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.landing img {
+  max-width: 100%;
+  margin-bottom: 60px;
+  max-height: 45vh;
+}
+.landing {
+  display: flex;
+  justify-content: center;
+  margin: 134px 250px 0px 250px;
+}
+
+.content {
+  text-align: center;
+  color: #424242;
+}
+
+.content h1 {
+  font-weight: 500;
+  font-size: 44px;
+  margin: 0 auto;
+}
+
+.content p{
+    font-weight: 400;
+    font-size: 20px;
+    margin: 14px auto;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+button{
+    width: 170px;
+    height: 43px;
+    background-color: #387ed1;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-top: 25px;
+}
+
+button:hover{
+    background-color: #000;
+}
