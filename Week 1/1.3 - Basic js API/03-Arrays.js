@@ -11,7 +11,7 @@
 //   arr.push(element);
 //   console.log("After push:", arr);
 // }
-// pushExample([1, 2, 3], 4);
+// pushExample([1, 2, 3], 4); //[1, 2, 3, 4]
 
 //? arr.pop() => remove the last element from the array
 // function popExample(arr) {
@@ -20,7 +20,7 @@
 //   arr.pop();
 //   console.log("After pop:", arr);
 // }
-// popExample([1, 2, 3]);
+// popExample([1, 2, 3]); //[1, 2]
 
 //? arr.shift() => shift the array and removes the first element
 // function shiftExample(arr) {
@@ -29,16 +29,16 @@
 //   arr.shift();
 //   console.log("After shift:", arr);
 // }
-// shiftExample([1, 2, 3]);
+// shiftExample([1, 2, 3]);//[2, 3]
 
-//? arr.unshift(element) => shift the array to left side and add the element at the starting
+//? arr.unshift(element) => shift the array to right side and add the element at the starting
 // function unshiftExample(arr, element) {
 //   console.log("Original Array:", arr);
 
 //   arr.unshift(element);
 //   console.log("After unshift:", arr);
 // }
-// unshiftExample([1, 2, 3], 0);
+// unshiftExample([1, 2, 3], 0); // [0, 1, 2, 3]
 
 //? arr1.concat(arr2) = create a combined array of arr1 and arr2
 // function concatExample(arr1, arr2) {
@@ -47,7 +47,7 @@
 //   let arr3 = arr1.concat(arr2);
 //   console.log("After concat:", arr3);
 // }
-// concatExample([1, 2, 3], [4, 5, 6]);
+// concatExample([1, 2, 3], [4, 5, 6]);//[1, 2, 3, 4, 5, 6]
 
 //? arr.forEach(function()) => runs for every element of the array
 // function forEachExample(arr) {
